@@ -5,7 +5,7 @@ public class FactorialOfNumber {
     int num = 5;
     int res = 1;
     for (int i = 2; i <= num; i++) {
-      res = res * i;
+      res *= i;
     }
     System.out.println("Factorial of "+num+" is "+res);
   }
