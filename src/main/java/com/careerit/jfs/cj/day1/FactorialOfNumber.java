@@ -7,6 +7,6 @@ public class FactorialOfNumber {
     for (int i = 2; i <= num; i++) {
       res *= i;
     }
-    System.out.println("Factorial of "+num+" is "+res);
+    System.out.println(String.format("Factorial of %s is %s",num,res));
   }
 }
