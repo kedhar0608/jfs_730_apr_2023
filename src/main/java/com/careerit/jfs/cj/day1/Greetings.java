@@ -2,7 +2,7 @@ package com.careerit.jfs.cj.day1;
 
 public class Greetings {
   public static void main(String[] args) {
-    String username = "User";
+    String username = "Username";
     if (args.length > 0) {
       username = args[0];
     }
