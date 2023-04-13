@@ -7,7 +7,7 @@ public class MultiplicationOfTable {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the num:");
     int num = sc.nextInt();
-    for (int i = 1; i <= 20; i++) {
+    for (int i = 1; i <= 10; i++) {
       System.out.println(String.format("%s * %s = %s", num, i, num * i));
     }
   }
